@@ -1,0 +1,197 @@
+(footprint "SOT-LMS33460"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-353, SC-70-5")
+	(tags "SOT-353 SC-70-5")
+	(property "Reference" "IC6"
+		(at 0 2.65 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dc1069b3-37bd-4c72-baf8-555921325584")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LMS33460MG/NOPB"
+		(at 6.9 -5.8 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "255797f6-ff66-455d-a3d9-e80cf9b49801")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SOT-LMS33460"
+		(at 1 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "beda08ff-fa8b-42f2-ab08-cb91488dbfb3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55d008ab-5e66-476f-bf83-332cf0f82ea5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Texas Instruments LMS33460MG/NOPB, Voltage Reference 3.15V max., 5-Pin SC-70"
+		(at -0.25 3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c7a824b-f8cb-498c-9cfc-b38adf9eb579")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "LMS33460MG/NOPB"
+		(at 0 9.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91c39a53-6823-4259-94f0-f531c9ca1174")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "description" ""
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f280d41-6f2d-46d4-a1bb-6df619545148")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturer" "Texas Instruments"
+		(at 0 -9.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ace474e1-0f9b-4c8f-8bf3-9d2c3ef87005")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mpn" "LMS33460MG/NOPB"
+		(at 0 -7.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d1df56a-4463-41a3-83e9-360b5b9fad56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -1.111486 -1.193919) (xy -1.361486 -1.543919) (xy -0.861486 -1.543919)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "13a8b11f-3569-4f69-b564-1db3a8713cdb")
+	)
+	(fp_rect
+		(start -1.75 -1.5)
+		(end 1.75 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b0282fe2-c21e-490e-aec9-180c7994ed80")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.5 2 180)
+		(layer "F.Fab")
+		(uuid "75254122-7258-4925-8cc3-033b70f7eec2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1 -0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9070e6c3-e10c-4ecc-aeec-dfa061b1cf74")
+	)
+	(pad "2" smd roundrect
+		(at -1.1 0)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ed28e148-1d5b-439b-825e-4476a2a6447f")
+	)
+	(pad "3" smd roundrect
+		(at -1.1 0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "bf5177d3-d91b-4e86-a430-54f5c44d5afb")
+	)
+	(pad "4" smd roundrect
+		(at 1.1 0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c6e79a85-4759-4a80-a459-75f231fae6c4")
+	)
+	(pad "5" smd roundrect
+		(at 1.1 -0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1bddf034-8f51-4bb9-8167-36042cf6b1a2")
+	)
+	(model "${KIPRJMOD}/1projectlibraries/3dmodels/SOT-353.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

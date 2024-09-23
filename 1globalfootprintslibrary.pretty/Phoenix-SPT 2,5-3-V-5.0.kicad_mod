@@ -1,0 +1,270 @@
+(footprint "Phoenix-SPT 2,5-3-V-5.0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "CONN4"
+		(at -5 -8.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e4c54e85-90e0-4dac-8c7b-cb58531ea579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPT 2.5/ 3-V-5.0"
+		(at 0 20.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a79becab-737a-4b46-8b02-249ed04a1b8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c57e020-78ba-45ba-9477-b2109e2e913a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "077b7812-f3ce-4671-84f9-c3c054e7538d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf46e08d-bab4-4e3a-88db-99eef915a2cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "description" "Fixed Terminal Blocks SPT 2.5/ 3-V-5.0 5MM 3P VERT SPR"
+		(at 0 11.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e40f9c3-61f6-4054-a9dd-0c7b4aba6101")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "manufacturer" "Phoenix Contact"
+		(at 0 14.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "decb14bd-a8a4-4283-9a8b-1cf910c2cc0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "mpn" "1991105"
+		(at 0 23.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3c24bc4-afa1-49bd-afd2-8312c2af3a53")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "remark" ""
+		(at 0 0.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ae125c2-9dff-4def-a506-02493f7bd430")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "supplier1Name" "Mouser"
+		(at 0 26.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c57e999-6ad7-49dc-8f77-160b0815ad98")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "supplier1PartNumber" "651-1991105"
+		(at 0 17.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86bc60ea-351f-4956-b225-66134dd57a34")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "supplier1PartURL" "https://www.mouser.be/ProductDetail/Phoenix-Contact/1991105?qs=HG6crFoccqodg51MDMYEiw%3D%3D"
+		(at 0 8.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be8f688b-615c-4801-a2aa-59ce8f185d99")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 8 6.7)
+		(end 8 -6.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbb888fe-ea8f-4684-9644-823e5cab5501")
+	)
+	(fp_rect
+		(start -7.3 -6.85)
+		(end 9.1 6.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "53599651-4207-4f76-8c38-f59ada73e248")
+	)
+	(fp_rect
+		(start -8 -7.5)
+		(end 10 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d4eacd42-1bd5-4931-89d7-d77d3bccde5e")
+	)
+	(fp_line
+		(start 8 -6.85)
+		(end 8 6.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb49c4f2-7279-458f-b728-94f25e1baf73")
+	)
+	(fp_rect
+		(start -7.3 -6.85)
+		(end 9.1 6.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d795b861-8731-41d4-92cd-3b1a61a58dc6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "51db80f6-7435-4386-acdb-bc5502b390a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -5 -4.1)
+		(size 3 3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.12)
+		(uuid "0c96296b-39cc-4c80-940c-c55b34e5bfae")
+	)
+	(pad "1" thru_hole roundrect
+		(at -5 4.1)
+		(size 3 3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.12)
+		(uuid "d1d67d58-3672-45fd-a83d-88cd14f97cf8")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -4.1)
+		(size 3 3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b10cd9e0-4034-4c01-bcdd-529defb2a4b5")
+	)
+	(pad "2" thru_hole circle
+		(at 0 4.1)
+		(size 3 3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "609a77b9-aa7f-4cdb-b389-e74df92bda14")
+	)
+	(pad "3" thru_hole circle
+		(at 5 -4.1)
+		(size 3 3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4facde58-c902-41fd-9ed4-efa398a88b3e")
+	)
+	(pad "3" thru_hole circle
+		(at 5 4.1)
+		(size 3 3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d8681d4-c171-4efe-86e3-f1efbbc1bf17")
+	)
+	(model "${KIPRJMOD}/1projectlibrary.pretty/pxc_1991105_03_03_SPT-2-5-3-V-5-0_3D.stp"
+		(offset
+			(xyz -7.3 0 7.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

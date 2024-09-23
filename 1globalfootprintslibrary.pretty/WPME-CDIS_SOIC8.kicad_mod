@@ -1,0 +1,200 @@
+(footprint "WPME-CDIS_SOIC8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WPME-CDIS Capacitive Digital Isolator Standard<br><br></b>Size: SOIC 8NB, SMT, 8pins<br>LXWXH = 4.9X3.9X1.4mm")
+	(property "Reference" "REF**"
+		(at 0 -4.635 0)
+		(layer "F.SilkS")
+		(uuid "72a5b37a-fc1a-4ffa-b603-7a71ca388fba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WPME-CDIS_SOIC8"
+		(at 0 4.865 0)
+		(layer "F.Fab")
+		(uuid "fdab8c02-3a57-4f49-a708-7eba4e06aab9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "WPME-CDIS_SOIC8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8531c124-1ded-4625-bc71-158c87a8de0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22634d00-051e-419a-9d46-1057a9590826")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc4a7d1d-5db0-4215-8ebf-1964599e39b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -2.5 2.75) (xy -2.8 2.95) (xy -2.8 2.55)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "c721ee22-462b-491c-a971-c77aa8549732")
+	)
+	(fp_poly
+		(pts
+			(xy -1.9 3.7) (xy -1.7 4) (xy -2.1 4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "420dd163-1956-4042-962b-fbd825bc162c")
+	)
+	(fp_rect
+		(start -2.7 -3.7)
+		(end 2.7 3.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "283a3971-9f42-4b93-8b75-7ab4e30a9085")
+	)
+	(fp_line
+		(start -2.45 -1.95)
+		(end 2.45 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a1bc036-28c2-4a5b-98e1-7212dd1fbb2c")
+	)
+	(fp_line
+		(start -2.45 1.95)
+		(end -2.45 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac662a2a-9ca6-4e96-92c3-4599f613a0fc")
+	)
+	(fp_line
+		(start 2.45 -1.95)
+		(end 2.45 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b642540-61ad-4e85-a3e2-a035eac45024")
+	)
+	(fp_line
+		(start 2.45 1.95)
+		(end -2.45 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83c95256-7162-48cd-be49-37354cd88c4e")
+	)
+	(pad "1" smd rect
+		(at -1.905 2.75)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4f42cccd-a756-407d-a41a-0bb03202b4cb")
+	)
+	(pad "2" smd rect
+		(at -0.635 2.75)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7ceaedd7-f2dc-4fc9-853d-035db715eff4")
+	)
+	(pad "3" smd rect
+		(at 0.635 2.75)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c853070-b787-4aff-952a-843f25efa143")
+	)
+	(pad "4" smd rect
+		(at 1.905 2.75)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a627a7aa-0d74-493f-9867-ed0d328f31c4")
+	)
+	(pad "5" smd rect
+		(at 1.905 -2.75)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1b2826de-a8cf-42e6-a953-77ce6e2ffa9b")
+	)
+	(pad "6" smd rect
+		(at 0.635 -2.75)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d784e74e-1b0a-4aa6-af05-ad06feea2ac3")
+	)
+	(pad "7" smd rect
+		(at -0.635 -2.75)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6e93050b-5d95-4cae-8eb7-180239fb9991")
+	)
+	(pad "8" smd rect
+		(at -1.905 -2.75)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "00c419d6-4120-43b2-b3cb-46b8ac125a54")
+	)
+	(model "${KIPRJMOD}/1projectlibraries/3dmodels/SOIC-8 Narrow.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

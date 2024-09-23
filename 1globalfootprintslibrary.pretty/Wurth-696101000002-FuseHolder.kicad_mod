@@ -1,0 +1,163 @@
+(footprint "Wurth-696101000002-FuseHolder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -8.8 -3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f77622b2-d67f-4245-92e7-0245d408fb57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Wurth-696101000002-FuseHolder"
+		(at 0 5.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1204c829-dd80-4745-8bd7-44766b021398")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0140d515-a083-487c-adde-6af7cd75b262")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cc0cd63-b75c-49c2-bf79-3eb4ce3f748b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "768337b3-7319-4e65-8379-d9c0b2d223e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -11.3 -4.5)
+		(end 11.3 -4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5417cc25-c954-4ea5-b2ee-51f205b3f4cd")
+	)
+	(fp_line
+		(start -11.3 4.5)
+		(end 11.3 4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1710122b-4b6f-4c9c-bc03-297e61fb7d4f")
+	)
+	(fp_rect
+		(start -13.5 -5)
+		(end 13.5 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "24ef4f67-5f77-46a2-ae72-b80ac19321b3")
+	)
+	(fp_rect
+		(start -11.3 -4.5)
+		(end 11.3 4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "acc1796e-a49d-4f6c-a217-af286358807f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7421ed40-b3a7-4d8c-af82-f49e846d136e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -11.3 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.12)
+		(uuid "0c791320-f099-42a5-873a-78a04962d11f")
+	)
+	(pad "2" thru_hole circle
+		(at 11.3 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a09f6c22-b1d5-4999-bc5d-e44da3753bf2")
+	)
+	(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/wurth-696101000002.stp"
+		(offset
+			(xyz -39 218.5 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "C:/Users/pasca/Documents/Projects/Electronica/myComponents/1globallibraries/3dmodels/0217.500MXP.STEP"
+		(offset
+			(xyz 0 -2.5 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

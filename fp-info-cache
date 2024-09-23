@@ -1,18 +1,74 @@
-23133555067149452
-1projectlibrary
+23147266976715562
+1GlobalFootprintsLibrary
+Meanwell IRM-05-XX
+IRM-05-24-1
+Power Supply
+0
+4
+4
+1GlobalFootprintsLibrary
+Wurth-696101000002-FuseHolder
+
+
+0
+2
+2
+1projectfootprints
+B72214P2351K101 - Varistor
+S14K350E2K1
+Varistor
+0
+2
+2
+1projectfootprints
+Bosch BME680
+Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
+Bosch LGA NoLead
+0
+8
+8
+1projectfootprints
 C_0603_1608Metric
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor
 0
 2
 2
-1projectlibrary
+1projectfootprints
+Meanwell IRM-05-XX
+IRM-05-24-1
+Power Supply
+0
+4
+4
+1projectfootprints
+Molex-2171790001
+
+
+0
+16
+13
+1projectfootprints
 R_0603_1608Metric
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
 0
 2
 2
+1projectfootprints
+Seeed Studio Wio-E5
+
+
+0
+28
+28
+1projectfootprints
+Sensirion-SHT4X
+Consumer SHT4x Digital and Analog
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

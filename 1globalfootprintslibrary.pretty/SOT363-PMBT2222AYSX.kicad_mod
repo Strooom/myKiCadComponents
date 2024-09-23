@@ -1,0 +1,203 @@
+(footprint "SOT363-PMBT2222AYSX"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-363, SC-70-6")
+	(tags "SOT-363 SC-70-6")
+	(property "Reference" "Q2"
+		(at 7 -0.75 -90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0d6029be-da00-4959-aee6-dfb2689e4513")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT363-PMBT2222AYSX"
+		(at 0.05 3.15 180)
+		(layer "F.Fab")
+		(uuid "0a0cd58b-e06c-4f26-92b1-06694bd4f813")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SOT363-PMBT2222AYSX"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d46369bf-b94a-4e6b-9edf-b1e3d99d6c27")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d018e9b-3653-4c51-b575-544a148fc7e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f58c4d88-45e3-412f-ba54-9c9b97801ea8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "PMBT2222AYSX"
+		(at 0.25 -6.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "245bc558-a89c-4f0c-9295-51c0336e379a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "description" "Bipolar Transistors - BJT PMBT2222AYS-Q/SOT363/TO-236AB"
+		(at 0 5.25 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0057298-c624-4eb3-84e0-4a52a2458e03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturer" "Nexperia"
+		(at 0 -9.75 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1ea99dc-2b7b-49bd-a835-cd975672013f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mpn" "PMBT2222AYSX"
+		(at 0 -4.25 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c9948f0-28b3-4e6e-aac9-8826ceebd1cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.9 -1.25) (xy -1.2 -1.65) (xy -0.65 -1.65)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "4dec536a-5886-40d6-a5ec-8995b519fe40")
+	)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "48512070-42d0-40d4-b68d-888a2a981ca0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.9 180)
+		(layer "F.Fab")
+		(uuid "2e14a75a-b943-4189-850b-1b477ae51add")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 -0.75)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "78c5d9df-2153-4338-b082-b99fe91873d6")
+	)
+	(pad "2" smd rect
+		(at -0.9 0)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "89781487-5d8c-4bcd-b04f-a5f5a9454015")
+	)
+	(pad "3" smd rect
+		(at -0.9 0.75)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "da1d6be9-4032-4371-b383-e2a0e0166e42")
+	)
+	(pad "4" smd rect
+		(at 0.9 0.75)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "5e92b07e-8f24-4626-883e-6e3d02bf8a47")
+	)
+	(pad "5" smd rect
+		(at 0.9 0)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "881d95b9-1c8e-421b-9b20-d9c06617e69b")
+	)
+	(pad "6" smd rect
+		(at 0.9 -0.75)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "21ca917d-ee0d-4a5b-aaaa-b4aa37a166c4")
+	)
+	(model "${KIPRJMOD}/1projectlibraries/3dmodels/SOT-363.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

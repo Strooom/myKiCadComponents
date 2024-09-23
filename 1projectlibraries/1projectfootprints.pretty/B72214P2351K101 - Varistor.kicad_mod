@@ -1,0 +1,242 @@
+(footprint "B72214P2351K101 - Varistor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "S14K350E2K1")
+	(tags "Varistor")
+	(property "Reference" "RV**"
+		(at -4.35 1.4 0)
+		(layer "F.SilkS")
+		(uuid "1427b21d-0558-415b-8d14-a8f4f243fe08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "B72214P2351K101 - Varistor"
+		(at -4 6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8ecc9928-6168-4b69-a60e-f7ceec2d0ea5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -4 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fb03d2d-9829-4e58-aa27-46394d9e59c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -4 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddb681fc-c401-4b30-b290-0ff617537c57")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -4 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8450f834-dc3b-4115-9642-c48600322d36")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.15 -3.4)
+		(end -5.15 -3.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5dc9acf-317c-4c4b-8940-596513054fab")
+	)
+	(fp_line
+		(start -5.15 3.3)
+		(end 4.65 3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3dcbe931-7dc5-49e6-8ff7-d6b6bd97dda2")
+	)
+	(fp_line
+		(start 4.65 -3.4)
+		(end -5.15 -3.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efdc3b79-27f6-42ed-b0a8-23aae2159158")
+	)
+	(fp_line
+		(start 4.65 3.3)
+		(end 4.65 3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2eded554-ef88-4ef2-b87c-6a6248a7cdf4")
+	)
+	(fp_arc
+		(start -5.15 3.3)
+		(mid -8.5 -0.05)
+		(end -5.15 -3.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5be27fba-9ee6-4e33-8c94-5d7f6f3ed56d")
+	)
+	(fp_arc
+		(start 4.65 -3.4)
+		(mid 8 -0.05)
+		(end 4.65 3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c23c1872-2028-4191-8f33-48b7fc262d04")
+	)
+	(fp_rect
+		(start -9 -3.9)
+		(end 8.5 3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ba9988e9-99d7-4a14-988c-223a3714387c")
+	)
+	(fp_line
+		(start -5.15 -3.4)
+		(end 4.65 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c47628e1-4063-44b5-a1d5-c1950a4e93f0")
+	)
+	(fp_line
+		(start -5.15 3.3)
+		(end -5.15 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c95a394b-7401-43c9-bd56-7acc89625536")
+	)
+	(fp_line
+		(start 4.65 -3.4)
+		(end 4.65 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b785e9f0-61ad-4f95-ab6f-be5e2744ec3f")
+	)
+	(fp_line
+		(start 4.65 3.3)
+		(end -5.15 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "118e91e2-28ea-4620-84c3-efac54d053eb")
+	)
+	(fp_arc
+		(start -5.15 3.3)
+		(mid -8.5 -0.05)
+		(end -5.15 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d752779-902d-4cd7-9dbb-672c08c10bfe")
+	)
+	(fp_arc
+		(start 4.65 -3.4)
+		(mid 8 -0.05)
+		(end 4.65 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6bbad5fc-c4c4-49d9-ac65-27f5602507c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.25 -0.05 0)
+		(layer "F.Fab")
+		(uuid "ffd82da2-59c2-4836-a1c1-87089e61f183")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -4 -2)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1666666667)
+		(uuid "c0f4e814-01ed-4acd-aad6-69b43745aa71")
+	)
+	(pad "2" thru_hole circle
+		(at 3.5 1.9)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "039efa2c-521b-48e7-b4ac-9397490283c0")
+	)
+	(model "${KIPRJMOD}/1projectlibraries/3dmodels/B72214P2351K101.stp"
+		(offset
+			(xyz -0.25 0.05 9.749999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,246 @@
+(footprint "SOIC-8-IX442X"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOIC SO")
+	(property "Reference" "U7"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "466170f4-8c98-4182-9b3c-d7a27d6a5ff9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IX4427N"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(uuid "d0609ee7-0575-4a82-9ef1-26822405c4f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SOIC-8-IX442X"
+		(at 0.25 5.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2630c325-5346-48a2-917a-4e8944fa1f7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.be/datasheet/2/240/media-3320896.pdf"
+		(at 0.25 5.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5d19e40-8ec4-44df-9a6b-fb7605477416")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Low-Side Gate Driver IC Non-Inverting 8-SOIC"
+		(at 0.1 8.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "249eac2f-97dd-4db1-8b40-86c941d64da2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "manufacturer" "IXYS Integrated"
+		(at 0 11.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0a1a023-430e-4dfe-bac4-ff68bd0a11b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturerPartNumber" "IX4427N"
+		(at -0.1 13.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a397a635-dbac-401a-b03b-9e9c64d9b9f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "digikeyPartNumber" "CLA400-ND"
+		(at -0.1 13.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c9e933f-8442-43ea-8268-e4ade0dadc3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mouserPartNumber" "849-IX4427N"
+		(at -0.1 13.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77a6533e-6fe9-418e-9e2c-e7610c8f46a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "octoPartUrl" "https://octopart.com/ix4427n-littelfuse-106000242?r=sp"
+		(at 0.25 5.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acd91754-91e6-46a9-8ec1-7fa2c0bd84ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -3.9 -1.9) (xy -4.23 -1.66) (xy -4.23 -2.14) (xy -3.9 -1.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9e0f37fe-599b-4796-acd3-bf368f60e127")
+	)
+	(fp_poly
+		(pts
+			(xy -2.7 -2.6) (xy -2.94 -2.93) (xy -2.46 -2.93) (xy -2.7 -2.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e8495b16-bc0f-465e-b588-beb92781a5a2")
+	)
+	(fp_rect
+		(start -3.7 -2.75)
+		(end 3.7 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1d0f969a-e87b-4554-927b-ded6e7f7d249")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.25 3.7 0)
+		(layer "F.Fab")
+		(uuid "08bd9dfe-8994-4146-aaba-9b480d5d6cdd")
+		(effects
+			(font
+				(size 0.98 0.98)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.65 -1.905)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "2bced467-8b78-475a-9d08-966fb5360361")
+	)
+	(pad "2" smd roundrect
+		(at -2.65 -0.635)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1652185d-a4c0-48c2-9643-00d076c84e90")
+	)
+	(pad "3" smd roundrect
+		(at -2.65 0.635)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "800799ce-ecc3-44bf-8e3c-5b11e7480027")
+	)
+	(pad "4" smd roundrect
+		(at -2.65 1.905)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "0fbb32e1-e62e-4007-bf69-841843d69515")
+	)
+	(pad "5" smd roundrect
+		(at 2.65 1.905)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9d66490a-cc67-4629-9637-6bd0bf5bd94d")
+	)
+	(pad "6" smd roundrect
+		(at 2.65 0.635)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "2a7aa53a-aee1-4535-8b96-3e80555acd2a")
+	)
+	(pad "7" smd roundrect
+		(at 2.65 -0.635)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "01df2f1d-1d76-4c91-8213-013e9a661520")
+	)
+	(pad "8" smd roundrect
+		(at 2.65 -1.905)
+		(size 1.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "af760acd-7214-40a8-a1bb-f62fb63cf801")
+	)
+	(model "${KIPRJMOD}/1projectlibraries/3dmodels/SOIC-8 Narrow.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

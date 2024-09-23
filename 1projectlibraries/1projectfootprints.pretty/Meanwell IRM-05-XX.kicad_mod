@@ -1,0 +1,233 @@
+(footprint "Meanwell IRM-05-XX"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IRM-05-24-1")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at -21 -14.8 0)
+		(layer "F.SilkS")
+		(uuid "1c422a48-d444-480d-bd8c-6dea868e8ed5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Meanwell IRM-05-XX"
+		(at -13.05 14.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6c5bc24a-f289-4343-b3f1-d8b550073df6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -19.25 9.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71b14ad0-5c57-4440-8899-9006daf068b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -19.25 9.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58f45199-d817-4109-9ecf-065a463cfd69")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -19.25 9.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ceeb5a7-b474-460f-af9e-35cb4598c6f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -22.85 -12.7)
+		(end 22.85 12.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c3205618-15a7-48b5-b317-3133a03c5321")
+	)
+	(fp_rect
+		(start -23.1 -12.95)
+		(end 23.1 12.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "59ac2ba7-6388-4cba-bf6d-fa4cf5895377")
+	)
+	(fp_line
+		(start -22.85 -12.7)
+		(end 22.85 -12.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2891a35c-23b4-43fc-944b-a1c532f390e3")
+	)
+	(fp_line
+		(start -22.85 12.7)
+		(end -22.85 -12.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ac38062-608e-4a62-87b0-54699ed8756b")
+	)
+	(fp_line
+		(start 22.85 -12.7)
+		(end 22.85 12.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ec800dc-f4aa-4a04-90c7-1c88873edb7e")
+	)
+	(fp_line
+		(start 22.85 12.7)
+		(end -22.85 12.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7a6635d-7e3f-41b6-b687-0049ad0363b8")
+	)
+	(fp_rect
+		(start -22.85 -12.7)
+		(end 0 0)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "832c102a-1d02-4a00-a049-59f691912e4e")
+	)
+	(fp_rect
+		(start -22.85 0)
+		(end 0 12.7)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "1df48aa0-5f19-4aa6-8508-6a80ae1117c0")
+	)
+	(fp_rect
+		(start 0 -12.7)
+		(end 22.85 0)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "290bd944-498f-4270-b9e9-a2b51729fa6f")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 22.85 12.7)
+		(stroke
+			(width 0.02)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "90c2ef8a-ec82-4500-a468-b167b8bebb74")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d504fc52-ddbd-4b35-9940-8401bb7820e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -19.25 9.25)
+		(size 2.4 2.4)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1041666667)
+		(thermal_bridge_angle 0)
+		(uuid "88b9d415-2413-44ac-a3b4-9cc4f2b76c5e")
+	)
+	(pad "2" thru_hole circle
+		(at 19.25 9.25)
+		(size 2.4 2.4)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
+		(uuid "d6a5679d-595a-4198-86f2-c3914462f4f5")
+	)
+	(pad "3" thru_hole circle
+		(at 19.25 1.25)
+		(size 2.4 2.4)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
+		(uuid "d5811aae-41c1-4012-b6c3-070031b9be7a")
+	)
+	(pad "4" thru_hole circle
+		(at -19.25 -1.5)
+		(size 2.4 2.4)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
+		(uuid "67930b0e-43b4-4060-8406-fff714a25de7")
+	)
+	(model "${KIPRJMOD}/1projectlibrary.pretty/IRM-05-24.stp"
+		(offset
+			(xyz -23.34 -61.669997 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
